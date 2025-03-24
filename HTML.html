@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Golf Course Resort</title>
+  <style>
+    /* RESET / BASE STYLES */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      /* Background gradient (adjust colors as needed) */
+      background: linear-gradient(
+        120deg, 
+        #7708df, 
+        #d3167e, 
+        #841bc0, 
+        #d00a66
+      );
+      background-size: cover;
+      min-height: 100vh;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+    }
+    .header-left a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    .header-center {
+      font-size: 1rem;
+    }
+    .header-right button {
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    .header-right button:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* MAIN CONTENT */
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .intro {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .intro h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .video {
+      width: 80%;
+      max-width: 800px;
+      height: 400px;
+      background-color: rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+    }
+    .video p {
+      font-size: 1.1rem;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    /* FOOTER */
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    footer > div {
+      flex: 1 1 180px;
+      margin: 0.5rem;
+    }
+    footer > div h4 {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+    footer > div p,
+    footer > div a {
+      font-size: 0.9rem;
+      line-height: 1.4;
+      text-decoration: none;
+      color: #fff;
+    }
+    /* Adjust text or link hover styles as needed */
+    footer > div a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <!-- Left: Logo (link to homepage) -->
+    <div class="header-left">
+      <a href="#">LOGO</a>
+    </div>
+    <!-- Center: Navigation Links -->
+    <div class="header-center">
+      <!-- Replace with your real navigation links -->
+      <nav>
+        <a href="#" style="margin: 0 1rem; color: #fff;">Home</a>
+        <a href="#" style="margin: 0 1rem; color: #fff;">Course</a>
+        <a href="#" style="margin: 0 1rem; color: #fff;">Membership</a>
+        <a href="#" style="margin: 0 1rem; color: #fff;">Contact</a>
+      </nav>
+    </div>
+    <!-- Right: Icon/Button -->
+    <div class="header-right">
+      <button>Menu</button>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- Introduction to Resort -->
+    <section class="intro">
+      <h1>ROYAL GOLF</h1>
+      <p>Welcome to our beautiful golf course resort. Enjoy world-class facilities and breathtaking views.</p>
+    </section>
+
+    <!-- Video Showcasing Golf course -->
+    <section class="video">
+      <!-- Replace this placeholder with an actual embedded video or image -->
+      <img src="C:\Users\Admin\Desktop\YUHH\videos\Amazing drone footage of Peninsula Kingswood Country Golf Club - First Look (4K).gif"  width="800" height="450">
+
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div>
+      <h4>Address</h4>
+      <p>123 Golf Road<br/>City, State ZIP</p>
+      <p>Phone: (+254) 456-7890<br/>Email: info@golfresort.com</p>
+    </div>
+    <div>
+      <h4>Social Media Links</h4>
+      <p><a href="#">Facebook</a></p>
+      <p><a href="#">Instagram</a></p>
+      <p><a href="#">Twitter</a></p>
+    </div>
+   
+    <div>
+      <h4>Navigation Links</h4>
+      <p><a href="#">Home</a></p>
+      <p><a href="#">Course</a></p>
+      <p><a href="#">Membership</a></p>
+      <p><a href="#">Contact</a></p>
+    </div>
+    <div>
+      <h4>Legal & Newsletter</h4>
+      <p><a href="#">Privacy Policy</a></p>
+      <p><a href="#">Terms of Service</a></p>
+      <p><a href="#">Subscribe to Newsletter</a></p>
+    </div>
+  </footer>
+</body>
+</html>
